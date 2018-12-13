@@ -1,0 +1,9 @@
+config BR2_PACKAGE_FLUIDSYNTH
+	bool "fluidsynth"
+	select BR2_PACKAGE_LIBGLIB2
+	select BR2_PACKAGE_ZLIB
+	help
+	  FluidSynth is a real-time software synthesizer based on the
+	  SoundFont 2 specifications
+
+	  http://www.fluidsynth.org/
